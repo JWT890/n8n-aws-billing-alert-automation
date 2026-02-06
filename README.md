@@ -1,1 +1,1 @@
-# zapier-aws-billing-alert-automation
+# n8n-aws-billing-alert-automation
