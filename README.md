@@ -20,6 +20,23 @@ Name it AWS Cost Budget, period at monthly, recurring budget, and the budgetted 
 Then you will see the alert screen like so:  
 <img width="1582" height="892" alt="image" src="https://github.com/user-attachments/assets/6584b648-bef0-45a3-a7fd-85fa6aa3a50f" />  
 Set the threshold to 80% and either forecasted or actual alert is fine along with what email you want to set. Should the be same as n8n. Then hit next.  
+Then next you will need to do the alerts with the right policies such as SNS, IAM policy, and making sure that they are working. Then hit next and create and should see a screen like this:  
+<img width="1292" height="728" alt="image" src="https://github.com/user-attachments/assets/ace41955-85f4-4eb5-ab97-44600dcd339e" />  
+
+# Google Sheets
+Set it up like this:  
+<img width="1899" height="708" alt="image" src="https://github.com/user-attachments/assets/351ffe81-a840-4cc3-878b-7fb68f4beb6f" />  
+And name the Google Sheet AWS Cost Logs
+
+# n8n
+In the homescreen you will see this after logging in:  
+<img width="1852" height="912" alt="image" src="https://github.com/user-attachments/assets/2a0c50f7-02c9-4a28-8dc2-aa20fed393ba" />  
+Click on the create new button.  
+
+
+
+
+
 
 
 
