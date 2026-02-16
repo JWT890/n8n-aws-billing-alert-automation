@@ -54,6 +54,16 @@ Sequence:
 Gmail Trigger -> Edit Fields -> Code in JavaScript -> Append Row to Google Sheets -> IF node -> Send a Message in Gmail
 
 # Test
+Publish the n8n workflow first
+Go to the Billing and Cost Management and edit the AWS budget that was created and set to something like 1.00 or higher since the cost might have changed, since mine says about 2.00, less will do. Then click next till save.  
+A couple seconds later you will get an email that the budget has been exceeded, this should trigger the n8n workflow.  
+Since I set the cronjob to be about 5 minutes it should run after a couple seconds and get this result:  
+<img width="892" height="427" alt="image" src="https://github.com/user-attachments/assets/e5ba03d3-328e-4b15-b5be-cfe06d2d64d7" />  
+And the updated Google Sheets with the info:  
+<img width="812" height="187" alt="image" src="https://github.com/user-attachments/assets/b3619e64-6ac4-4cb2-9ace-1a369d4faf03" />  
+
+
+
 
 
 
