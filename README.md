@@ -62,7 +62,7 @@ Since I set the cronjob to be about 5 minutes it should run after a couple secon
 And the updated Google Sheets with the info:  
 <img width="812" height="187" alt="image" src="https://github.com/user-attachments/assets/b3619e64-6ac4-4cb2-9ace-1a369d4faf03" />  
 
-
+By combining AWS Budgets, Gmail, Google Sheets, and an automated n8n workflow, this project demonstrates a practical, low-cost approach to real-time cloud cost monitoring and alerting. The solution highlights how simple integrations and event-driven automation can improve financial visibility, reduce unexpected spending, and create an auditable record of usage without complex infrastructure. Whether used for personal labs, small teams, or learning cloud automation fundamentals, this workflow provides a strong foundation that can be extended with additional notifications, dashboards, or multi-account monitoring to support more advanced cloud governance strategies. 
 
 
 
