@@ -32,6 +32,38 @@ And name the Google Sheet AWS Cost Logs
 In the homescreen you will see this after logging in:  
 <img width="1852" height="912" alt="image" src="https://github.com/user-attachments/assets/2a0c50f7-02c9-4a28-8dc2-aa20fed393ba" />  
 Click on the create new button.  
+First node should be a Gmail Trigger node that detects if the AWS Budgets email has been sent to the inbox:  
+<img width="1155" height="844" alt="image" src="https://github.com/user-attachments/assets/b0467ed8-ef5b-4d59-a235-1cf5bed684fa" />  
+Next node should be the Edit fields node with the following from the email:  
+<img width="450" height="775" alt="image" src="https://github.com/user-attachments/assets/423b99df-682a-429e-a399-c6701dee33f8" />  
+<img width="434" height="444" alt="image" src="https://github.com/user-attachments/assets/bdf2a341-34c3-4f3d-8271-58ba7beef2e0" />  
+Next node should be a Code in JavaScript node:  
+<img width="1269" height="867" alt="image" src="https://github.com/user-attachments/assets/95174e34-85c9-4c83-b60d-67551bbcdf32" />  
+Next node should be a Append Row to Google Sheets node:  
+<img width="1141" height="856" alt="image" src="https://github.com/user-attachments/assets/22460e8b-5836-4afa-8fcb-a7c90612284a" />  
+<img width="400" height="301" alt="image" src="https://github.com/user-attachments/assets/2ea513f9-4849-4d13-acf7-c75e72dcf080" />  
+Next node should be a IF node for the threshold:  
+<img width="1258" height="865" alt="image" src="https://github.com/user-attachments/assets/eea982fd-d111-48d2-9537-23db1aea7ab6" />  
+If the Threshold is greater than 80% of the budget it will send an email to the inbox.  
+Next node should be the send a message to the inbox node:  
+<img width="1153" height="839" alt="image" src="https://github.com/user-attachments/assets/6e91d536-aaec-4a4e-8ec7-ee5ba3a89801" />  
+With the result being something like this:  
+<img width="389" height="243" alt="image" src="https://github.com/user-attachments/assets/7f6225a0-1313-4682-a957-7d576f9066ae" />  
+
+Sequence:
+Gmail Trigger -> Edit Fields -> Code in JavaScript -> Append Row to Google Sheets -> IF node -> Send a Message in Gmail
+
+# Test
+
+
+
+
+
+
+
+
+
+
 
 
 
